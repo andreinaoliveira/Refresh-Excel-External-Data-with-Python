@@ -3,10 +3,10 @@ Esse script automaticamente atualiza os dados de um arquivo excel existente na m
 
 ## Pré-requisito
 Substituir os seguintes campos no código
-- localPath = "...": informar o caminho do arquivo e o arquivo juntamente com a sua extensão.
-- ftp = FTP('...') : servicor FTP
-- ftp.login(user='...', passwd='..'): usuário e senha do FTP
-- filename = "...": informar a pasta
+- <b>localPath = ''</b>: informar o caminho do arquivo e o arquivo juntamente com a sua extensão.
+- <b>ftp = FTP('')</b>: servidor FTP
+- <b>ftp.login(user='', passwd='')</b>: usuário e senha do FTP
+- <b>filename = ""</b>: pasta que será salvo o arquivo no FTP
 
 
 ## Como o scrip funciona
