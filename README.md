@@ -1,5 +1,8 @@
 # Refresh Excel External Data with Python
-Esse script automaticamente atualiza os dados de um arquivo excel existente na máquina local e salva uma cópia em um servidor FTP. Uso ideal para atualizar listas do sharepoing exportadas no formato .iqy
+Esse script automaticamente atualiza os dados de um arquivo excel existente na máquina local e salva uma cópia em um servidor FTP. Uso ideal para atualizar listas do sharepoing exportadas no formato .iqy <br>
+
+![image](https://user-images.githubusercontent.com/51168329/154853113-5e82be4f-cda7-48cf-9f11-a27614f93f5b.png)
+![image](https://user-images.githubusercontent.com/51168329/154853303-da56958e-ac10-4524-9098-878b8e75d180.png)
 
 ## Pré-requisito
 Substituir os seguintes campos no código
