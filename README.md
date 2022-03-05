@@ -12,7 +12,8 @@ Substituir os seguintes campos no código
 - <b>filename = ""</b>: pasta que será salvo o arquivo no FTP
 
 
-## Como o scrip funciona
+## Como o script funciona
+### Atualizando Excel
 - localpath representa o caminho e o arquivo excel local que será atualziando. Entrando em Update Excel, será atualizado e salvo os dados do arquivo aquivo local. Se você busca apenas atualizar o arquivo sem salvá-lo em outra pasta, o cósigo abaixo já supre suas necessidades.
 ~~~ 
 localPath = 'C:/caminho/nome-arquivo.xlsx'
@@ -34,6 +35,7 @@ except Exception:
     sys.exit() 
 ~~~
 
+### Estabelecendo Conexão FTP
 - O código abaixo estabelece uma conexão com o servicor FTP. Para isso é necessário informar o servidor, usuário e senha.
 ~~~ 
 # FTP Connection
@@ -47,7 +49,7 @@ except Exception:
     sys.exit()
 ~~~ 
 
-
+### Salvando no FTP
 - Com a conexão estabelecida o código abaixo irá criar uma cópia do arquivo atualizado e irá salvá-lo no caminho informado em "filename". Para não haver conflito entre nomes do arquivo, o mesmo será nomeado com a data e hora do momento em que o script está sendo rodado.
 
 ~~~~
